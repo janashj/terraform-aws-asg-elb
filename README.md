@@ -14,7 +14,7 @@ module "wordpress" {
     "0.0.0.0/0"
   ]
   app_name         = "wordpress"
-  source           = "/home/ec2-user/Terraform-14/iclass_4_tasks/asg_with_lt"
+  source           = "janashj/aws/asg-elb"
   aws_region       = "us-east-1"
   desired_capacity = 1
   max_size         = 99
