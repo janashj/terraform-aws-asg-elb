@@ -28,6 +28,7 @@ module "wordpress" {
 
 # Please run
 terraform init
+
 terraform apply
 
 ```
