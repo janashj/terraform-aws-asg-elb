@@ -6,7 +6,7 @@ This repo is build for AWS ASG with ELB and Launch Template.
 
 # Please copy paste below code to module, so that it can be deployed with asg_with_lt 
 
-'''
+```
 
 module "wordpress" {
   ssh_cidr_blocks = [
@@ -23,10 +23,10 @@ module "wordpress" {
   key_location     = "~/.ssh/id_rsa.pub"
 }
 
-'''
+```
 
 # Please run
 terraform init
 terraform apply
 
-'''
+```
